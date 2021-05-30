@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body
+{
+    background:#000;
+} */
+
+#section1 {
+  border: 0px solid #000;
+  height: 100vh;
+  background-image: url("../../assets/back56.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#section1 .container {
+  border: 0px solid #fff;
+  padding-top: 180px;
+}
+#section1 h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  cursor: default;
+}
+#section1 h3 {
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+  line-height: 50px;
+  font-size: 2.3rem;
+  letter-spacing: 4px;
+}
+#section1 p {
+  color: #fff;
+  text-align: justify;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+#section1 .socialLinks {
+  border: 0px solid #fff;
+  margin-top: 40px;
+}
+
+#section1 .socialLinks h4 {
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+  letter-spacing: 4px;
+}
+#section1 .socialLinks ul {
+  margin-left: 0px;
+  border: 0px solid #fff;
+}
+#section1 .socialLinks ul li {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 10px;
+}
+#section1 .socialLinks ul li a {
+  border: 0px solid #fff;
+  padding: 10px 15px;
+  color: #000;
+  background: #fff;
+  border-radius: 50%;
+}
+#section1 h6 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#section2 {
+  height: 100vh;
+}
+#section2 .row .col-lg-6 {
+  height: 100vh;
+}
+#section2 .backup {
+  background-image: url("../../assets/happy-co-workers-close-window.jpg");
+  background-size: cover;
+  background-position: right;
+}
+#section2 h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 100px;
+  color: #fff;
+  font-size: 3rem;
+  cursor: default;
+}
+#section2 h1 span {
+  border-bottom: 2px solid #fff;
+}
+#section2 p {
+  margin-top: 30px;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: justify;
+  color: #fff;
+}
+#section2 h2 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 4px;
+  margin-top: 20px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+#section2 .newBack {
+  background: url("../../assets/about4.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#section2 h2 span {
+  border-bottom: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+  #section1 {
+    background-size: cover;
+    background-position: center;
+  }
+  #section1 h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  #section1 h3 {
+    font-size: 2.3rem;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  #section1 h6 {
+    letter-spacing: 1px;
+  }
+  #section2 .backup {
+    background-position-x: 75%;
+  }
+  #section2 h1 {
+    font-size: 1.8rem;
+  }
+  #section2 h2 {
+    text-align: center;
+  }
+}
