@@ -1,8 +1,11 @@
 import React from "react";
 import './Header.css'
 function Header() {
+
+ 
   return (
     <div>
+      
       <nav class="navbar navbar-expand-lg navbar-light p-lg-4 fixed-top">
         <a  class="navbar-brand" href="#Start">
           telamInfotech
@@ -43,6 +46,7 @@ function Header() {
           </ul>
         </div>
       </nav>
+      
     </div>
   );
 }

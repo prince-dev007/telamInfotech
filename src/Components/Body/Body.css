@@ -125,6 +125,276 @@
 #section2 h2 span {
   border-bottom: 2px solid #fff;
 }
+#section3 .container
+{
+  padding-top: 80px;
+}
+#section3 h1
+{
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 4px;
+  font-size: 3.5rem;
+}
+#section3 h1 span
+{
+  border-bottom: 2px solid #000;
+}
+#section3 .process1
+{
+  border: 1px solid #000;
+  padding:30px;
+  border-radius:5px;
+}
+#section3 .process1 i
+{
+  font-size: 50px;
+}
+#section4
+{
+  height:100vh;
+  background-image: url('../../assets/chase-chappell-hTkNokqHTxk-unsplash.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#section4 .container
+{
+  padding-top: 200px;
+}
+#section4 .GrowBox
+{
+  border: 4px solid #616161;
+  padding:60px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.89);
+  border-radius: 10px;
+}
+#section4 .GrowBox h2
+{
+  font-size:3rem;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+}
+
+#section4 .GrowBox h1
+{
+  font-size:4rem;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+}
+#section4 .GrowBox p
+{
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: justify;
+  line-height:30px;
+}
+#section4 .GrowBox .btn
+{
+  background:#000;
+  border-radius:0;
+  color: #fff;
+  padding:10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+#section6
+{
+  height:100vh;
+  background-image: url('../../assets/servw.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+#section6 h1
+{
+  text-align: right;
+  font-size:4rem;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+#section6 h1 span
+{
+  border-bottom: 2px solid #fff;
+}
+
+#section6 .service1
+{
+  border:0px solid #fff;
+  margin-top:20px;
+  padding: 10px;
+}
+
+#section6 .service1 h2
+{
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: right;
+  cursor: default;
+}
+
+#section6 .service1 h2 i
+{
+  font-size:20px;
+  transition: 0.78s;
+}
+
+#section6 .service1 h2:hover i
+{
+  transform :translateX(-10px);
+}
+
+
+.owl-crousel
+{
+  height:500px;
+}
+.owl-crousel .card
+{
+  height:500px; 
+}
+.owl-crousel .card .btn
+{
+  background:#000;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing:2px;
+}
+
+#sliderSection1 
+{
+  padding:20px;
+  border:0px solid #000;
+  text-align: center;
+}
+
+#sliderSection1  h1
+{
+  font-size:4rem;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 20px;
+}
+#section7
+{
+  background:url('../../assets/corporate-businessmen-shaking-hands.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#section7 h1
+{
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
+}
+
+#section7 .form-control
+{
+  box-shadow: none;
+  border:1px solid #000;
+  color:#000;
+}
+#section7 .btn
+{
+  background:#000;
+  color: #fff;
+  box-shadow: none;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+#section8{
+  background:#000;
+  color: #fff;
+  text-align: center;
+}
+#section8 .btn
+{
+  background:#fff;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 10px 20px;
+  margin-top:10px;
+}
+
+#footer
+{
+  background-image: url('../../assets/footer.png');
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+#footer .socialLinks {
+  border: 0px solid #000;
+}
+
+#footer .socialLinks h4 {
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+#footer .socialLinks ul {
+  margin-left: 0px;
+  border: 0px solid #fff;
+}
+#footer .socialLinks ul li {
+  display: inline-block;
+  font-size: 1rem;
+}
+#footer .socialLinks ul li a {
+  border: 1px solid #000;
+  padding: 5px 5px;
+  color: #fff;
+  background: #fff;
+  border-radius: 50%;
+  margin:5px;
+}
+#footer .socialLinks ul li a i
+{
+  color: #000;
+}
+
+#footer  ul li
+{
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin:5px auto;
+  margin-top:10px;
+  color: #fff;
+
+}
+#footer p
+{
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing:1px;
+}
+
+#footer h2
+{
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+/* Start the media Query/ */
 
 @media (max-width: 768px) {
   #section1 {
@@ -144,8 +414,13 @@
   #section1 h6 {
     letter-spacing: 1px;
   }
-  #section2 .backup {
-    background-position-x: 75%;
+  #section2
+  {
+    height:100vh;
+  }
+  #section2 .backup
+  {
+    display:none;
   }
   #section2 h1 {
     font-size: 1.8rem;
@@ -153,4 +428,49 @@
   #section2 h2 {
     text-align: center;
   }
+  #section3
+  {
+    border: 1px solid #fff;
+  }
+  #section3 .process1
+  {
+    margin-top:20px;
+  }
+  #section4 .container
+  {
+    padding-top: 20px;
+    text-align:center;
+  }
+  .owl-crousel
+  {
+    display:none !important;
+  }
+  #section6
+  {
+    background:#000;
+    padding-top:20px;
+    height:600px;
+  }
+  #section6 .content .service1 h2
+  {
+    text-align: center;
+    font-size:1.5rem;
+  }
+  #section7
+  {
+    background-color: #000;
+  }
+  #section7 .row
+  {
+    padding-top: 50px;
+  }
+  #section8
+  {
+    padding: 50px;
+  }
+  #sliderSection1
+  {
+    display:none;
+  }
+
 }
